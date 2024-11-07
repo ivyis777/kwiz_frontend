@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "839345937146",
+    "project_id": "ivyisquizzy-app",
+    "storage_bucket": "ivyisquizzy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839345937146:android:9a10f98323994f21d2c743",
+        "android_client_info": {
+          "package_name": "com.Kwiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839345937146-jl424siv24r3srbt8rsjlhsofqqlbtit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Kwiz",
+            "certificate_hash": "27de973152ce9188672d9016c33eeb211bc4b0d6"
+          }
+        },
+        {
+          "client_id": "839345937146-99ps4rtv9tmbpet4a4e7rnhck1ph40ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1paSOsEOsrXBSwn-BH_GvaQAAnSq05Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839345937146-99ps4rtv9tmbpet4a4e7rnhck1ph40ce.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "839345937146-3jk5b411sica7j28nseao6f4mcgb2m1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kwiizzApp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
