@@ -1,11 +1,12 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/models/wallet_balance_model.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/filter_button_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/wallet/banktransfer_page.dart';
-import 'package:Kwiz/presentation/screens/wallet/topup_page.dart';
-import 'package:Kwiz/presentation/screens/wallet/wallet_to_wallet.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/models/wallet_balance_model.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/filter_button_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/wallet/banktransfer_page.dart';
+import 'package:RiddleQing/presentation/screens/wallet/topup_page.dart';
+import 'package:RiddleQing/presentation/screens/wallet/wallet_to_wallet.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';

@@ -1,16 +1,17 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/models/quiz_submit_model.dart' as quizModel ;
 
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/answer_explanation/answerexp_constants.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_result_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quizsubmit_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/home/home_constraints.dart';
-import 'package:Kwiz/presentation/screens/home/home_page.dart';
-import 'package:Kwiz/presentation/screens/quiz_completed/quizcomp_page.dart';
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/models/quiz_submit_model.dart' as quizModel;
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/answer_explanation/answerexp_constants.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_result_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quizsubmit_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/home/home_constraints.dart';
+import 'package:RiddleQing/presentation/screens/home/home_page.dart';
+import 'package:RiddleQing/presentation/screens/quiz_completed/quizcomp_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

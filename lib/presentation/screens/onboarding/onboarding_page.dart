@@ -1,13 +1,14 @@
 import 'dart:async';
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/models/user_models.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/loginotp_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/onboarding_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/resendotp_controller.dart';
-import 'package:Kwiz/presentation/screens/onboarding/onboarding_constants.dart';
-import 'package:Kwiz/presentation/screens/signup/signup_page.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/models/user_models.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/loginotp_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/onboarding_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/resendotp_controller.dart';
+import 'package:RiddleQing/presentation/screens/onboarding/onboarding_constants.dart';
+import 'package:RiddleQing/presentation/screens/signup/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -80,7 +81,10 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
     final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colours.primaryColor,
-      body: SingleChildScrollView(
+      body: 
+      Container(
+        child: 
+        SingleChildScrollView(
         child: ConstrainedBox(
           constraints: BoxConstraints(minHeight: size.height),
           child: Form(
@@ -109,7 +113,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                             children: [
                               Image.asset(
                                 Assets.images.Appicon1.path,
-                                height: size.height * 0.08,
+                                height: size.height * 0.15,
                                 // width: size.width* 0.9,
                               ),
                               SizedBox(height: 8),
@@ -394,7 +398,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           ),
         ),
       ),
-    );
+    ));
   }
 
   Widget _buildOTPInputGrid() {

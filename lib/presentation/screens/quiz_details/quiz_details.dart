@@ -1,11 +1,12 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/question_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_give_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/quizdetails_contants.dart';
-import 'package:Kwiz/presentation/screens/quiz_give/quiz_give_ui.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/question_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_give_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/quizdetails_contants.dart';
+import 'package:RiddleQing/presentation/screens/quiz_give/quiz_give_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -196,7 +197,11 @@ class _QuizDetailsState extends State<QuizDetails> {
                               mainAxisAlignment: MainAxisAlignment.start,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Image.asset(Assets.images.boyicon.path),
+                                Image.asset(
+      Assets.images.boyicon.path,  // Ensure the correct path is used
+      width: 50,  // Adjust size if needed
+      height: 50, // Adjust size if needed
+    ),
                                 SizedBox(width: 15),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -207,7 +212,7 @@ class _QuizDetailsState extends State<QuizDetails> {
                                         fontFamily: FontFamily.rubik,
                                         fontSize: 18,
                                         fontWeight: FontWeight.w500,
-                                        color: Colours.darkblueColor,
+                                        color: Colours.primaryColor,
                                       ),
                                     ),
                                     SizedBox(height: 2),
@@ -280,7 +285,7 @@ Container(
                 ),
           style: ElevatedButton.styleFrom(
             fixedSize: Size(169, 56),
-            backgroundColor: Colours.buttonColour,
+            backgroundColor: Colours.primaryColor,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),

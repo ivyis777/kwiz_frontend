@@ -1,7 +1,7 @@
 
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/presentation/screens/settings/settings_page.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/presentation/screens/settings/settings_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,5 +1,6 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/wallet_balance_model.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/wallet_balance_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

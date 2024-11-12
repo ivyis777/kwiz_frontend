@@ -1,12 +1,13 @@
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/firebase_api/firebase_api.dart';
-import 'package:Kwiz/presentation/screens/controller/add_categegory_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/profile_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/promotioncardlist_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/user_controller.dart';
-import 'package:Kwiz/presentation/screens/onboarding/onboarding_page.dart';
-import 'package:Kwiz/presentation/screens/splashscreen/splash_page.dart';
-import 'package:Kwiz/utils/bottombar.dart';
+
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/firebase_api/firebase_api.dart';
+import 'package:RiddleQing/presentation/screens/controller/add_categegory_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/profile_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/promotioncardlist_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/user_controller.dart';
+import 'package:RiddleQing/presentation/screens/onboarding/onboarding_page.dart';
+import 'package:RiddleQing/presentation/screens/splashscreen/splash_page.dart';
+import 'package:RiddleQing/utils/bottombar.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';

@@ -1,5 +1,6 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/quiz_submit_model.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/quiz_submit_model.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:get/state_manager.dart';
 

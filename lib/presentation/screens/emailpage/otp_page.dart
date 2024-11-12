@@ -1,8 +1,9 @@
 import 'dart:async';
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/resendotp_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/signup_controller.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/resendotp_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/signup_controller.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

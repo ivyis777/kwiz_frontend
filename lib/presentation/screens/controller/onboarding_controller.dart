@@ -1,9 +1,10 @@
 import 'dart:ui';
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/presentation/screens/controller/user_controller.dart';
-import 'package:Kwiz/utils/bottombar.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/presentation/screens/controller/user_controller.dart';
+import 'package:RiddleQing/utils/bottombar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

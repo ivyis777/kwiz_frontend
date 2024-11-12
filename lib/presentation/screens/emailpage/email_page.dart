@@ -1,8 +1,9 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/form_validation/form_validation.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/otp_controller.dart';
-import 'package:Kwiz/presentation/screens/emailpage/emailpage_constants.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/form_validation/form_validation.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/otp_controller.dart';
+import 'package:RiddleQing/presentation/screens/emailpage/emailpage_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';

@@ -1,13 +1,14 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/FreeSubscription/free%20_subscription.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_subscription_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/payment/payment_page.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/quiz_details.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/quizdetails_contants.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/FreeSubscription/free%20_subscription.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_subscription_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/payment/payment_page.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/quiz_details.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/quizdetails_contants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -240,7 +241,12 @@ class _LiveQuizPageState extends State<LiveQuizPage> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Image.asset(Assets.images.boyicon.path),
+            Image.asset(
+      Assets.images.boyicon.path,  // Ensure the correct path is used
+      width: 50,  // Adjust size if needed
+      height: 50, // Adjust size if needed
+    ),
+                    
                     SizedBox(width: 15),
                     Expanded(
                       child: Column(
@@ -252,7 +258,7 @@ class _LiveQuizPageState extends State<LiveQuizPage> {
                               fontFamily: FontFamily.rubik,
                               fontSize: 14,
                               fontWeight: FontWeight.w500,
-                              color: Colours.darkblueColor,
+                              color: Colours.primaryColor,
                             ),
                           ),
                           SizedBox(height: 2),

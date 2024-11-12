@@ -1,5 +1,6 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/completed_quiz_model.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/completed_quiz_model.dart';
 import 'package:get/get.dart';
 
 

@@ -1,8 +1,9 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/subcategaries_controller.dart';
-import 'package:Kwiz/presentation/screens/quizzes%20List/quizzes_list.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/subcategaries_controller.dart';
+import 'package:RiddleQing/presentation/screens/quizzes%20List/quizzes_list.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

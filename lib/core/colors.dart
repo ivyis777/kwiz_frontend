@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class Colours
 {
 
-  static Color  primaryColor = const Color.fromRGBO(144, 12, 214, 1);
+
+  static Color  primaryColor = const Color.fromRGBO(182, 32, 128, 1);
   static Color secondaryColour = Color.fromRGBO(239, 238, 252, 1);
   static Color  cardTextColour = Color.fromRGBO(0, 24, 51, 1);
-  static Color buttonColour = Color.fromRGBO(144, 12, 214, 1);
+  // static Color buttonColour = Color.fromRGBO(144, 12, 214, 1);
+  static Color buttonColour = Color.fromRGBO(182, 32, 128, 1);
   static Color  textColour = Color.fromRGBO(133, 132, 148, 1);
   static Color  CardColour = Color.fromRGBO(255, 255, 255, 1);
   static Color formTextColour = Color.fromRGBO(133, 132, 148, 1);

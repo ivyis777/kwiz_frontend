@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:839345937146:android:9a10f98323994f21d2c743",
         "android_client_info": {
-          "package_name": "com.Kwiz"
+          "package_name": "com.RiddleQing"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "839345937146-jl424siv24r3srbt8rsjlhsofqqlbtit.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.Kwiz",
+            "package_name": "com.RiddleQing",
             "certificate_hash": "27de973152ce9188672d9016c33eeb211bc4b0d6"
           }
         },

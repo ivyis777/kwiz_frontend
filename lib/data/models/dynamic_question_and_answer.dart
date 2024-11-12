@@ -1,6 +1,8 @@
 
 
-import 'package:Kwiz/data/models/question_data.dart';
+
+
+import 'package:RiddleQing/data/models/question_data.dart';
 
 import 'answer_data.dart';
 

@@ -1,5 +1,6 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
 import 'package:flutter/material.dart';
 
 class SubmitButton extends StatelessWidget {

@@ -1,6 +1,8 @@
 
 
-import 'package:Kwiz/data/models/quiz_data.dart';
+
+
+import 'package:RiddleQing/data/models/quiz_data.dart';
 
 class PartialQuizData {
   List<QuizData>? quizData;

@@ -1,4 +1,4 @@
-package com.Kwiz
+package com.RiddleQing
 
 import io.flutter.embedding.android.FlutterActivity
 

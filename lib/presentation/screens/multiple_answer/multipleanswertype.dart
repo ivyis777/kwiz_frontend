@@ -1,12 +1,13 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/models/questions_data.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/answer_explanation/answer_exp.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_give_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quizsubmit_controller.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/submit_button.dart';
-import 'package:Kwiz/presentation/widgets/common_ui_bg.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/models/questions_data.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/answer_explanation/answer_exp.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_give_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quizsubmit_controller.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/submit_button.dart';
+import 'package:RiddleQing/presentation/widgets/common_ui_bg.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 

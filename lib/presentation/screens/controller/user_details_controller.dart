@@ -1,6 +1,7 @@
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/user_details.dart';
+
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/user_details.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
@@ -14,11 +15,11 @@ class UserDetailsController extends GetxController {
     super.onInit();
   }
 
-  Future<void>  userDetailURL() async {
+  Future<void>  userDetail() async {
     updateLoader(true);
     final box = GetStorage();
     final userId = box.read(LocalStorageConstants.userId).toString();
-    var response = await ApiService.userDetailsURL();
+    var response = await ApiService.userDetailsApi();
     userDetailsClass.value = response;
     updateLoader(false);
   }

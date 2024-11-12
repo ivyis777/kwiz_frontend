@@ -1,6 +1,7 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/presentation/screens/onboarding/onboarding_page.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/presentation/screens/onboarding/onboarding_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

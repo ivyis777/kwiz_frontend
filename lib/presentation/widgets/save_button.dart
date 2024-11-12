@@ -1,4 +1,5 @@
-import 'package:Kwiz/core/colors.dart';
+
+import 'package:RiddleQing/core/colors.dart';
 import 'package:flutter/material.dart';
 
 

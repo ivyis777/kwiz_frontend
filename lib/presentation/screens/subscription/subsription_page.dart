@@ -1,13 +1,15 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/completedquiz_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/subscribed_quizes.controller.dart';
-import 'package:Kwiz/presentation/screens/controller/unsubscribe_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/live_quizes/live_quizes.dart';
-import 'package:Kwiz/presentation/screens/subscription/subscription_constants.dart';
+
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/completedquiz_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/subscribed_quizes.controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/unsubscribe_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/live_quizes/live_quizes.dart';
+import 'package:RiddleQing/presentation/screens/subscription/subscription_constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

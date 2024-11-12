@@ -1,18 +1,20 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_give_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_result_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quizsubmit_controller.dart';
-import 'package:Kwiz/presentation/screens/multiple_answer/multipleanswertype.dart';
-import 'package:Kwiz/presentation/screens/quiz_completed/quizcomp_page.dart';
-import 'package:Kwiz/presentation/screens/single_choice/single_choice.dart';
-import 'package:Kwiz/presentation/screens/true_or_false_type/trueorfalse.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_give_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_result_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quizsubmit_controller.dart';
+import 'package:RiddleQing/presentation/screens/multiple_answer/multipleanswertype.dart';
+import 'package:RiddleQing/presentation/screens/quiz_completed/quizcomp_page.dart';
+import 'package:RiddleQing/presentation/screens/single_choice/single_choice.dart';
+import 'package:RiddleQing/presentation/screens/true_or_false_type/trueorfalse.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
 
 import 'dart:async';
+
+import '../../../core/storage_manager/local_storage_constants.dart';
 
 class QuizGiveUi extends StatefulWidget {
   final String quizId;

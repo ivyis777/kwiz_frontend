@@ -1,9 +1,10 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/Subscribed_quizes.dart';
-import 'package:Kwiz/data/models/quiz_give.dart';
-import 'package:Kwiz/data/models/quiz_recent_class.dart';
-import 'package:Kwiz/data/models/quiz_take.dart';
-import 'package:Kwiz/data/models/quiz_take_mata.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/Subscribed_quizes.dart';
+import 'package:RiddleQing/data/models/quiz_give.dart';
+import 'package:RiddleQing/data/models/quiz_recent_class.dart';
+import 'package:RiddleQing/data/models/quiz_take.dart';
+import 'package:RiddleQing/data/models/quiz_take_mata.dart';
 import 'package:get/get.dart';
 
 

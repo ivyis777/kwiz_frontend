@@ -1,12 +1,13 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/Alltimeranking/all_time_ranking.dart';
-import 'package:Kwiz/presentation/screens/controller/completedquiz_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/weeklyleaderboard_controller.dart';
-import 'package:Kwiz/presentation/screens/learderboard/leaderboard_constants.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/Alltimeranking/all_time_ranking.dart';
+import 'package:RiddleQing/presentation/screens/controller/completedquiz_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/weeklyleaderboard_controller.dart';
+import 'package:RiddleQing/presentation/screens/learderboard/leaderboard_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

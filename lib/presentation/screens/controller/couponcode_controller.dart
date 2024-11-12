@@ -1,6 +1,7 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/couponcode_model.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/couponcode_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

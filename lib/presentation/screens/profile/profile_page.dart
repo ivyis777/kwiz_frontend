@@ -1,18 +1,19 @@
 import 'dart:io';
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/form_validation/form_validation.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/models/user_details.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/profile_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/user_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/user_details_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/profile/profile_constants.dart';
-import 'package:Kwiz/presentation/widgets/custum_space.dart';
-import 'package:Kwiz/presentation/widgets/input_decoration_helper.dart';
-import 'package:Kwiz/presentation/widgets/save_button.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/form_validation/form_validation.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/models/user_details.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/profile_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/user_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/user_details_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/profile/profile_constants.dart';
+import 'package:RiddleQing/presentation/widgets/custum_space.dart';
+import 'package:RiddleQing/presentation/widgets/input_decoration_helper.dart';
+import 'package:RiddleQing/presentation/widgets/save_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -57,7 +58,7 @@ class _ProfilePageState extends State<ProfilePage> {
     fetchUserDetails();
   }
 void fetchUserDetails() async {
-  await userDetailsController.userDetailURL();
+  await userDetailsController.userDetail();
   final UserDetailsModel userDetails = userDetailsController.userDetailsClass.value;
 
   if (userDetails.userId != null && userDetails.userId!.isNotEmpty) {
@@ -196,10 +197,13 @@ Row(
 ),
 // SizedBox(height: screenHeight * 0.02), 
 DropdownButtonFormField<String>(
-  value: _selectedGender,
+  value: _selectedGender,  // Make sure this has a valid initial value or null
   onChanged: (String? newValue) {
     setState(() {
-      _selectedGender = newValue!;
+      // Null check before updating the value
+      if (newValue != null) {
+        _selectedGender = newValue;
+      }
     });
   },
   validator: (value) {
@@ -208,7 +212,7 @@ DropdownButtonFormField<String>(
     }
     return null;
   },
-  items: <String>['male', 'female', 'other']
+  items: <String>['Male', 'Female', 'Other'] // Capitalize the items
       .map<DropdownMenuItem<String>>((String value) {
     return DropdownMenuItem<String>(
       value: value,
@@ -226,6 +230,7 @@ DropdownButtonFormField<String>(
     ),
   ),
 ),
+
                      
      SizedBox(height: screenHeight * 0.02),                     
 TextFormField(

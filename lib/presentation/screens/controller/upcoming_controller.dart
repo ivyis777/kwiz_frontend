@@ -1,5 +1,6 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/upcomingquiz.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/upcomingquiz.dart';
 import 'package:get/get.dart';
 
 class upcomingKwiizzesController extends GetxController {

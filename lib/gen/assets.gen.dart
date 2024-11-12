@@ -71,7 +71,7 @@ class $AssetsImagesGen {
 
 
     AssetGenImage get Appicon1  =>
-      const AssetGenImage('assets/images/appicon1.png');
+      const AssetGenImage('assets/images/appicon.png');
 
   
 

@@ -1,7 +1,8 @@
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/help_and_support/help_support_constrants.dart';
-import 'package:Kwiz/presentation/widgets/common_ui_bg.dart';
+
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/help_and_support/help_support_constrants.dart';
+import 'package:RiddleQing/presentation/widgets/common_ui_bg.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';

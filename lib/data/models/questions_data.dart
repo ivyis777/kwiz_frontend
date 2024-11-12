@@ -1,7 +1,8 @@
 
 
-import 'package:Kwiz/data/models/answer_data.dart';
-import 'package:Kwiz/data/models/question_data.dart';
+
+import 'package:RiddleQing/data/models/answer_data.dart';
+import 'package:RiddleQing/data/models/question_data.dart';
 
 class QuestionsData {
   QuestionData? questionData;

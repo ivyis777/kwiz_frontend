@@ -1,46 +1,47 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/data/app_url.dart';
-import 'package:Kwiz/data/models/QuizSubscription.dart';
-import 'package:Kwiz/data/models/Subscribed_quizes.dart';
-import 'package:Kwiz/data/models/TypesOfCategeries.dart';
-import 'package:Kwiz/data/models/Unsubscribe_model.dart';
-import 'package:Kwiz/data/models/categaries_model.dart';
-import 'package:Kwiz/data/models/completed_quiz_model.dart';
-import 'package:Kwiz/data/models/couponcode_model.dart';
-import 'package:Kwiz/data/models/creator_quiz_model.dart';
-import 'package:Kwiz/data/models/latestQuialist_model.dart';
-import 'package:Kwiz/data/models/latestquiz_model.dart';
-import 'package:Kwiz/data/models/leaderboardall_model.dart';
-import 'package:Kwiz/data/models/login_model.dart';
-import 'package:Kwiz/data/models/loginotp_model.dart';
-import 'package:Kwiz/data/models/otp_model.dart';
-import 'package:Kwiz/data/models/payfromwallet_model.dart';
-import 'package:Kwiz/data/models/profile_model.dart';
-import 'package:Kwiz/data/models/promotion_model.dart';
-import 'package:Kwiz/data/models/promotioncardlist_model.dart';
-import 'package:Kwiz/data/models/promotionsecond_model.dart';
-import 'package:Kwiz/data/models/question_models.dart';
-import 'package:Kwiz/data/models/quiz_give.dart';
-import 'package:Kwiz/data/models/quiz_result_model.dart';
-import 'package:Kwiz/data/models/quiz_submit_model.dart';
-import 'package:Kwiz/data/models/quiz_take.dart';
-import 'package:Kwiz/data/models/quiz_take_mata.dart';
-import 'package:Kwiz/data/models/quiznotifications.dart';
-import 'package:Kwiz/data/models/quizzeslist_model.dart';
-import 'package:Kwiz/data/models/resendotp_model.dart';
-import 'package:Kwiz/data/models/search_model.dart';
-import 'package:Kwiz/data/models/signup_models.dart';
-import 'package:Kwiz/data/models/subcategaries_model.dart';
-import 'package:Kwiz/data/models/subscribequizes_model.dart';
-import 'package:Kwiz/data/models/unsubsribelist_model.dart';
-import 'package:Kwiz/data/models/upcomingquiz.dart';
-import 'package:Kwiz/data/models/user_details.dart';
-import 'package:Kwiz/data/models/wallet_balance_model.dart';
-import 'package:Kwiz/data/models/wallet_transfer_model.dart';
-import 'package:Kwiz/data/models/weeklyleader_model.dart';
+
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/data/app_url.dart';
+import 'package:RiddleQing/data/models/QuizSubscription.dart';
+import 'package:RiddleQing/data/models/Subscribed_quizes.dart';
+import 'package:RiddleQing/data/models/TypesOfCategeries.dart';
+import 'package:RiddleQing/data/models/Unsubscribe_model.dart';
+import 'package:RiddleQing/data/models/categaries_model.dart';
+import 'package:RiddleQing/data/models/completed_quiz_model.dart';
+import 'package:RiddleQing/data/models/couponcode_model.dart';
+import 'package:RiddleQing/data/models/creator_quiz_model.dart';
+import 'package:RiddleQing/data/models/latestQuialist_model.dart';
+import 'package:RiddleQing/data/models/latestquiz_model.dart';
+import 'package:RiddleQing/data/models/leaderboardall_model.dart';
+import 'package:RiddleQing/data/models/login_model.dart';
+import 'package:RiddleQing/data/models/loginotp_model.dart';
+import 'package:RiddleQing/data/models/otp_model.dart';
+import 'package:RiddleQing/data/models/payfromwallet_model.dart';
+import 'package:RiddleQing/data/models/profile_model.dart';
+import 'package:RiddleQing/data/models/promotion_model.dart';
+import 'package:RiddleQing/data/models/promotioncardlist_model.dart';
+import 'package:RiddleQing/data/models/promotionsecond_model.dart';
+import 'package:RiddleQing/data/models/question_models.dart';
+import 'package:RiddleQing/data/models/quiz_give.dart';
+import 'package:RiddleQing/data/models/quiz_result_model.dart';
+import 'package:RiddleQing/data/models/quiz_submit_model.dart';
+import 'package:RiddleQing/data/models/quiz_take.dart';
+import 'package:RiddleQing/data/models/quiz_take_mata.dart';
+import 'package:RiddleQing/data/models/quiznotifications.dart';
+import 'package:RiddleQing/data/models/quizzeslist_model.dart';
+import 'package:RiddleQing/data/models/resendotp_model.dart';
+import 'package:RiddleQing/data/models/search_model.dart';
+import 'package:RiddleQing/data/models/signup_models.dart';
+import 'package:RiddleQing/data/models/subcategaries_model.dart';
+import 'package:RiddleQing/data/models/subscribequizes_model.dart';
+import 'package:RiddleQing/data/models/unsubsribelist_model.dart';
+import 'package:RiddleQing/data/models/upcomingquiz.dart';
+import 'package:RiddleQing/data/models/user_details.dart';
+import 'package:RiddleQing/data/models/wallet_balance_model.dart';
+import 'package:RiddleQing/data/models/wallet_transfer_model.dart';
+import 'package:RiddleQing/data/models/weeklyleader_model.dart';
 import 'package:flutter/widgets.dart';
 import 'package:path/path.dart' as path;
 import 'package:get_storage/get_storage.dart';
@@ -109,7 +110,7 @@ static Future<OtpModel> OtpApi({
   }
 }
 
-static Future<LoginOtp> LoginotpURL({
+static Future<LoginOtp> LoginotpApi({
   required String email,
 }) async {
   var headers = {'Content-Type': 'application/json'};
@@ -136,7 +137,7 @@ static Future<LoginOtp> LoginotpURL({
   }
 }
 
-static Future<ResendOtp>ResendotpURL({
+static Future<ResendOtp>ResendotpApi({
  
   required String email,
 
@@ -364,7 +365,7 @@ static Future<UpcomingKwiizzesModel> upcomingKwizzesAPI() async {
 }
 
 
- static Future<UserDetailsModel> userDetailsURL() async {
+ static Future<UserDetailsModel> userDetailsApi() async {
     
     final  box = GetStorage();
      var fetchedID = box.read(LocalStorageConstants.userId).toString();

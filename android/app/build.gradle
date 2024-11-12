@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.Kwiz"
+    namespace "com.RiddleQing"
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
@@ -45,13 +45,13 @@ android {
         release {
             keyAlias 'my_key_alias'
             keyPassword 'password'
-            storeFile file("D:/responsive/quiz_launch-master/android/new_release_key.jks")
+            storeFile file("/Users/ivyis/Documents/KwizzApp/kwiz_frontend/android/app/new_release_key.jks")
             storePassword 'password'
         }
     }
 
     defaultConfig {
-        applicationId "com.Kwiz"
+        applicationId "com.RiddleQing"
         multiDexEnabled true
         minSdkVersion 23
         targetSdkVersion 34

@@ -1,6 +1,7 @@
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/SubCategaries/sub_categaries.dart';
-import 'package:Kwiz/presentation/screens/controller/categaries_controller.dart';
+
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/SubCategaries/sub_categaries.dart';
+import 'package:RiddleQing/presentation/screens/controller/categaries_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

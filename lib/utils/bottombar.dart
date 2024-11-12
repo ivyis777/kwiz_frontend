@@ -1,10 +1,11 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/presentation/screens/SearchPage/search_page.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/home/home_page.dart';
-import 'package:Kwiz/presentation/screens/settings/settings_page.dart';
-import 'package:Kwiz/presentation/screens/wallet/wallet_page.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/presentation/screens/SearchPage/search_page.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/home/home_page.dart';
+import 'package:RiddleQing/presentation/screens/settings/settings_page.dart';
+import 'package:RiddleQing/presentation/screens/wallet/wallet_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart'; // For reading from local storage

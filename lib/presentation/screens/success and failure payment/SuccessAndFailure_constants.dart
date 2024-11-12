@@ -1,5 +1,6 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/presentation/screens/live_quizes/live_quizes.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/presentation/screens/live_quizes/live_quizes.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

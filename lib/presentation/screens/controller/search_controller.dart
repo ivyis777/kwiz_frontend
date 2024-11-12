@@ -1,6 +1,7 @@
-import 'package:Kwiz/data/api_service.dart';
-import 'package:Kwiz/data/models/search_model.dart';
-import 'package:Kwiz/presentation/screens/controller/add_categegory_controller.dart';
+
+import 'package:RiddleQing/data/api_service.dart';
+import 'package:RiddleQing/data/models/search_model.dart';
+import 'package:RiddleQing/presentation/screens/controller/add_categegory_controller.dart';
 import 'package:get/get.dart';
 
 

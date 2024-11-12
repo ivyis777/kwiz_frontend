@@ -1,17 +1,17 @@
 
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/FreeSubscription/free%20_subscription.dart';
+import 'package:RiddleQing/presentation/screens/controller/add_categegory_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/quiz_subscription_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/search_controller.dart'as MySearchController;
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
+import 'package:RiddleQing/presentation/screens/payment/payment_page.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/quiz_details.dart';
+import 'package:RiddleQing/presentation/screens/quiz_details/quizdetails_contants.dart';
 
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/FreeSubscription/free%20_subscription.dart';
-import 'package:Kwiz/presentation/screens/controller/add_categegory_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/quiz_subscription_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/search_controller.dart' as MySearchController ;
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
-import 'package:Kwiz/presentation/screens/payment/payment_page.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/quiz_details.dart';
-import 'package:Kwiz/presentation/screens/quiz_details/quizdetails_contants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

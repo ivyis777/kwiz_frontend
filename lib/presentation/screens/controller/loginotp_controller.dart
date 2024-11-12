@@ -1,5 +1,6 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/api_service.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,7 @@ class LoginOtpController extends GetxController {
   }) async {
     updateLoading(true);
 
-    final response = await ApiService.LoginotpURL(email: email);
+    final response = await ApiService.LoginotpApi(email: email);
     updateLoading(false);
 
     print("Response status code: ${response.status}");

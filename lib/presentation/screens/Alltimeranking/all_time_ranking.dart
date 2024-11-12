@@ -1,8 +1,9 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/assets.gen.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/controller/leaderboardall_controller.dart';
-import 'package:Kwiz/presentation/screens/controller/wallet_balance_controller.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/assets.gen.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/controller/leaderboardall_controller.dart';
+import 'package:RiddleQing/presentation/screens/controller/wallet_balance_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -69,7 +70,7 @@ List<Color> crownColors = [
             fontWeight: FontWeight.w500,
           ),
         ),
-        backgroundColor: Colours.primaryColor,
+      backgroundColor: Colours.primaryColor,
         foregroundColor: Colours.CardColour,
         centerTitle: true,
         iconTheme: IconThemeData(
@@ -77,7 +78,9 @@ List<Color> crownColors = [
           size: screenWidth * 0.07,
         ),
       ),
-      body: LayoutBuilder(
+      body: 
+      
+        LayoutBuilder(
         builder: (context, constraints) {
           return Container(
             width: constraints.maxWidth,

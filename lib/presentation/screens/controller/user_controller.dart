@@ -1,4 +1,5 @@
-import 'package:Kwiz/core/storage_manager/local_storage_constants.dart';
+
+import 'package:RiddleQing/core/storage_manager/local_storage_constants.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 

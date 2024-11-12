@@ -1,6 +1,6 @@
 
 
-import 'package:Kwiz/data/models/questions_data.dart';
+import 'package:RiddleQing/data/models/questions_data.dart';
 
 class QuizGive {
   List<QuestionsData>? questionsData;

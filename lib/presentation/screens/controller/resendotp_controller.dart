@@ -1,5 +1,6 @@
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/data/api_service.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/data/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,7 @@ class ResendOtpController extends GetxController {
   }) async {
     updateLoading(true);
 
-    final response = await ApiService.ResendotpURL(email: email);
+    final response = await ApiService.ResendotpApi(email: email);
 
     updateLoading(false);
 

@@ -1,9 +1,10 @@
 
-import 'package:Kwiz/core/colors.dart';
-import 'package:Kwiz/gen/fonts.gen.dart';
-import 'package:Kwiz/presentation/screens/emailpage/email_page.dart';
-import 'package:Kwiz/presentation/screens/onboarding/onboarding_page.dart';
-import 'package:Kwiz/presentation/screens/signup/signup_constants.dart';
+
+import 'package:RiddleQing/core/colors.dart';
+import 'package:RiddleQing/gen/fonts.gen.dart';
+import 'package:RiddleQing/presentation/screens/emailpage/email_page.dart';
+import 'package:RiddleQing/presentation/screens/onboarding/onboarding_page.dart';
+import 'package:RiddleQing/presentation/screens/signup/signup_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
