@@ -313,8 +313,11 @@ Row(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Image.asset(
-                                            Assets.images.boyicon.path),
+                                         Image.asset(
+      Assets.images.boyicon.path,  // Ensure the correct path is used
+      width: 50,  // Adjust size if needed
+      height: 50, // Adjust size if needed
+    ),
                                         SizedBox(width: 15),
                                         Expanded(
                                           child: Column(
